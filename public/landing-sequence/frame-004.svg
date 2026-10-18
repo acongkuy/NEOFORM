@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500">
+  <rect width="700" height="500" fill="#FFFDF7"/>
+  <circle cx="100" cy="90" r="35" fill="#FFD43B" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M570 390l38-65 38 65z" fill="#3A86FF" stroke="#1A1A1A" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="174" y="62" width="352" height="380" rx="3" fill="#fff" stroke="#1A1A1A" stroke-width="8"/>
+  <path d="M178 68h344v18H178z" fill="#FFD43B"/>
+  <circle cx="197" cy="77" r="4" fill="#1A1A1A"/><circle cx="211" cy="77" r="4" fill="#1A1A1A"/>
+  <circle cx="350" cy="203" r="47" fill="#06D6A0" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="m326 202 17 17 34-38" fill="none" stroke="#1A1A1A" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="350" y="285" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#1A1A1A">Jawaban terkirim!</text>
+  <text x="350" y="314" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#555">Terima kasih sudah mengisi formulir ini.</text>
+  <rect x="293" y="345" width="114" height="32" rx="3" fill="#FFD43B" stroke="#1A1A1A" stroke-width="3"/>
+  <text x="316" y="366" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#1A1A1A">SELESAI</text>
+</svg>

@@ -1,0 +1,40 @@
+export const QUESTION_TYPES = [
+  { id: 'short_text', label: 'Short Text', icon: 'BsInputCursorText' },
+  { id: 'paragraph', label: 'Paragraph', icon: 'BsTextParagraph' },
+  { id: 'number', label: 'Number', icon: 'Bs123' },
+  { id: 'email', label: 'Email', icon: 'BsEnvelope' },
+  { id: 'phone', label: 'Phone', icon: 'BsTelephone' },
+  { id: 'url', label: 'URL', icon: 'BsLink45deg' },
+  { id: 'date', label: 'Date', icon: 'BsCalendar' },
+  { id: 'time', label: 'Time', icon: 'BsClock' },
+  { id: 'datetime', label: 'Date Time', icon: 'BsCalendarEvent' },
+  { id: 'checkbox', label: 'Checkbox', icon: 'BsCheckSquare' },
+  { id: 'multiple_choice', label: 'Multiple Choice', icon: 'BsCircle' },
+  { id: 'dropdown', label: 'Dropdown', icon: 'BsMenuDown' },
+  { id: 'file_upload', label: 'File Upload', icon: 'BsUpload' },
+  { id: 'rating', label: 'Rating', icon: 'BsStar' },
+  { id: 'linear_scale', label: 'Linear Scale', icon: 'BsSliders' },
+  { id: 'yes_no', label: 'Yes / No', icon: 'BsToggleOn' },
+  { id: 'section', label: 'Section', icon: 'BsLayoutSplit' },
+  { id: 'divider', label: 'Divider', icon: 'BsDashLg' },
+  { id: 'heading', label: 'Heading', icon: 'BsTypeH1' },
+  { id: 'description', label: 'Description', icon: 'BsTextLeft' }
+]
+
+export const DEFAULT_QUESTION = {
+  id: '',
+  type: 'short_text',
+  title: '',
+  required: false,
+  placeholder: '',
+  defaultValue: '',
+  helpText: '',
+  validation: { minLength: null, maxLength: null, minValue: null, maxValue: null, pattern: '' },
+  options: ['Option 1'],
+  acceptMultiple: false,
+  minScale: 1,
+  maxScale: 5,
+  maxSize: 10,
+  allowedTypes: ['image', 'pdf'],
+  showAsLink: false
+}
