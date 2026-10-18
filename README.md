@@ -35,5 +35,3 @@ Neoform menyederhanakan alur pengumpulan data: pembuat formulir menyusun pertany
 - `xlsx` untuk ekspor Excel
 - `qrcode.react` untuk QR code
 - Google Apps Script sebagai penghubung opsional untuk unggah file ke Google Drive
-
-n` mengarahkan rute aplikasi kembali ke `index.html` agar halaman React Router dapat dibuka langsung.
